@@ -1,0 +1,56 @@
+font:
+  font_images_search_dict: /home/sol/data/HEHE/code/data_generation/data/search_dict_all.json
+  title_font_images_search_dict: /home/sol/data/HEHE/code/data_generation/data/font2/search_dict.json
+save_path:
+  image_save_path: /home/sol/data/HEHE/data/data6_3/images
+  label_save_path: /home/sol/data/HEHE/data/data6_3/label
+  vis_save_path: /home/sol/data/HEHE/data/data6_3/vis
+page_parameter:
+  # (lower bound, upper bound)
+  char_num_per_lines:
+    - 30
+    - 50
+  char_interval:
+    - 1
+    - 5
+  interval_between_lines:
+    - 15
+    - 20
+  interval_between_paragraphs:
+    - 20
+    - 30
+  interval_between_layouts:
+    - 30
+    - 60
+  max_layout_num: 4
+  margin_left:
+    - 120
+    - 250
+  margin_right:
+    - 100
+    - 200
+  margin_top:
+    - 120
+    - 250
+  margin_bottom:
+    - 120
+    - 250
+  max_width: 1500
+  max_char_num_in_one_page: 1500
+  image_num:
+    - 0
+    - 4
+  image1_size:
+    - 80
+    - 200
+  image2_size:
+    - 80
+    - 200
+  image3_size:
+    - 80
+    - 200
+  image4_size:
+    - 80
+    - 200
+redundant_blank_threshold: 250
+image_format: .jpg
